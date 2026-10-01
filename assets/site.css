@@ -54,6 +54,13 @@ h3{font-size:1.12rem}
 .walkin{display:inline-block;background:var(--mint);color:var(--charcoal);border:1px solid #93c6b2;font-weight:900;font-size:1.25rem;padding:.35rem .9rem;border-radius:10px;margin:0 0 1rem;transform:rotate(-1.5deg)}
 .hero h1{font-size:clamp(2.6rem,6vw,4.4rem);margin-bottom:.35em}
 .lead{font-size:1.15rem;color:#3a4148;max-width:36em}
+.hero-pills{display:flex;flex-direction:column;align-items:stretch;width:fit-content;max-width:100%;gap:.55rem;margin:.3rem 0 1.4rem}
+.hero-pills p{margin:0}
+.ins-pill{display:flex;align-items:center;gap:.7rem;background:#fff;border:1px solid var(--mint);border-left:4px solid var(--steel);border-radius:12px;padding:.55rem .9rem .55rem .75rem;color:var(--charcoal);max-width:36em}
+.ins-ico{flex:none;display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:var(--mint-soft);color:var(--steel)}
+.ins-txt{display:flex;flex-direction:column;line-height:1.3}
+.ins-txt strong{color:var(--steel-d);font-size:1.05rem}
+.ins-txt small{color:var(--muted);font-size:.9rem;margin-top:.1rem}
 .price-pill{display:inline-block;background:#fff;border:1px solid var(--mint);border-radius:12px;padding:.55rem .9rem;color:var(--charcoal);margin:.3rem 0 1.4rem}
 .price-pill strong{color:var(--steel-d);font-size:1.3rem}
 .ctas{display:flex;flex-wrap:wrap;gap:.8rem}
@@ -138,6 +145,10 @@ address{font-style:normal;font-size:1.1rem;margin-bottom:1rem}
   .foot-grid{grid-template-columns:1fr}
   .nav-actions .btn-sm{display:none}
   .brand-txt b{font-size:1.1rem}
+  .hero-pills{gap:.45rem;margin:.2rem 0 1.1rem}
+  .ins-pill{padding:.5rem .75rem .5rem .6rem;gap:.6rem}
+  .ins-ico{width:32px;height:32px}.ins-ico svg{width:19px;height:19px}
+  .ins-txt strong{font-size:1rem}.ins-txt small{font-size:.85rem}
   .ccard{padding:1rem;gap:.8rem}.ccard b.em{font-size:.9rem}.chev{font-size:1.5rem}
   .mbar{display:grid;grid-template-columns:1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:60;box-shadow:0 -6px 20px rgba(0,0,0,.18);padding-bottom:env(safe-area-inset-bottom);background:var(--steel-d)}
   .mbar a{display:flex;align-items:center;justify-content:center;gap:.5rem;min-height:58px;font-weight:900;font-size:1.1rem;text-decoration:none}
