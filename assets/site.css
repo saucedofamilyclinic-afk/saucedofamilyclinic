@@ -18,7 +18,8 @@ h3{font-size:1.12rem}
 .top{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
 .nav{display:flex;align-items:center;gap:1.2rem;min-height:70px}
 .brand{display:flex;align-items:center;gap:.6rem;text-decoration:none;color:var(--slate)}
-.brand img{width:48px;height:48px;border-radius:50%}
+.brand picture{display:flex;flex:none}
+.brand img{width:48px;height:48px;display:block}
 .brand-txt{display:flex;flex-direction:column;line-height:1}
 .brand-txt b{font-family:Georgia,serif;font-size:1.3rem;letter-spacing:.06em}
 .brand-txt small{font-weight:800;font-size:.7rem;letter-spacing:.14em;color:var(--charcoal)}
@@ -57,7 +58,7 @@ h3{font-size:1.12rem}
 .price-pill strong{color:var(--steel-d);font-size:1.3rem}
 .ctas{display:flex;flex-wrap:wrap;gap:.8rem}
 .hero-card{background:#fff;color:var(--ink);border-radius:24px;padding:1.4rem;box-shadow:0 24px 60px rgba(40,109,154,.16);border:1px solid var(--line)}
-.hero-logo{border-radius:14px;margin-bottom:1rem;aspect-ratio:600/439;object-fit:cover}
+.hero-logo{display:block;width:min(100%,240px);height:auto;margin:0 auto 1rem}
 .hero-card h2{font-family:inherit;font-size:1.1rem;display:flex;align-items:center;gap:.4rem;color:var(--steel);margin:0 0 .3rem}
 .hours{width:100%;border-collapse:collapse;font-size:.98rem}
 .hours th,.hours td{padding:.45rem 0;border-bottom:1px solid var(--line);text-align:left}
