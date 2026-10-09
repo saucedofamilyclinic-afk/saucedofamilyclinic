@@ -142,7 +142,7 @@ address{font-style:normal;font-size:1.1rem;margin-bottom:1rem}
   .nav-actions{margin-left:auto}
   .svc-grid,.gallery{grid-template-columns:repeat(2,1fr)}
   .price-wrap,.appt,.visit,.tele-wrap{grid-template-columns:1fr}
-  .tele-fig{max-width:520px}
+  .tele-fig{max-width:520px;order:-1}
 }
 @media (max-width:760px){
   body{font-size:16px}
