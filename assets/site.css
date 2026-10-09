@@ -128,18 +128,28 @@ address{font-style:normal;font-size:1.1rem;margin-bottom:1rem}
 .copy{font-size:.85rem;color:#c9ccc8}
 .mbar{display:none}
 
+/* telehealth */
+.tele{background:#fff}
+.tele-wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:2.5rem;align-items:center}
+.tele-list{margin:1.2rem 0 1.4rem}
+.nowrap{white-space:nowrap}
+.tele-note{margin:1.2rem 0 0;color:var(--muted)}
+.tele-fig{margin:0;justify-self:center;width:100%;max-width:460px}
+.tele-fig img{width:100%;border-radius:22px;border:1px solid var(--line);box-shadow:0 24px 60px rgba(40,109,154,.16)}
+
 @media (max-width:1020px){
   .links{display:none}
   .nav-actions{margin-left:auto}
   .svc-grid,.gallery{grid-template-columns:repeat(2,1fr)}
-  .price-wrap,.appt,.visit{grid-template-columns:1fr}
+  .price-wrap,.appt,.visit,.tele-wrap{grid-template-columns:1fr}
+  .tele-fig{max-width:520px}
 }
 @media (max-width:760px){
   body{font-size:16px}
   .hero{padding:2rem 0 1.6rem}
   .hero-grid{grid-template-columns:1fr;gap:1.6rem}
   .facts{grid-template-columns:1fr;margin-top:1.6rem}
-  .ctas .btn{width:100%}
+  .ctas .btn,.tele-copy .btn{width:100%}
   .price-grid{grid-template-columns:1fr}
   .sec{padding:3rem 0}
   .foot-grid{grid-template-columns:1fr}
