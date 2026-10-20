@@ -179,3 +179,11 @@ address{font-style:normal;font-size:1.1rem;margin-bottom:1rem}
 .maplabel span{color:var(--muted);font-size:.95rem}
 .maplabel em{font-style:normal;font-weight:800;color:var(--steel)}
 .mapcard:hover .maplabel em{text-decoration:underline}
+/* FLU SEASON SECTION - remove after March 2026-27 season */
+.flu{background:var(--mint-bg)}
+.flu-wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:2.5rem;align-items:center}
+.flu-copy .btn{margin-top:1.2rem}
+.flu-fig{margin:0;justify-self:center;width:100%;max-width:340px;padding:10px;background:#fff;border:1px solid var(--line);border-radius:28px;box-shadow:0 24px 60px rgba(40,109,154,.16)}
+.flu-fig video{display:block;width:100%;height:auto;aspect-ratio:9/16;border-radius:20px;background:var(--steel-d);object-fit:cover}
+@media (max-width:900px){.flu-wrap{grid-template-columns:1fr}.flu-fig{max-width:320px}.flu-copy .btn{width:100%}}
+/* /FLU SEASON SECTION */
