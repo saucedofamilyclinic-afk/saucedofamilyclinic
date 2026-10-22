@@ -195,3 +195,6 @@ address{font-style:normal;font-size:1.1rem;margin-bottom:1rem}
 .wa-ico{color:#25D366}
 @media (max-width:760px){.wa-fab{width:54px;height:54px;right:14px;bottom:calc(72px + env(safe-area-inset-bottom))}.wa-fab svg{width:28px;height:28px}body{padding-bottom:136px}}
 @media (prefers-reduced-motion:reduce){.wa-fab{transition:none}}
+.btn-wa{background:#25D366;color:#fff;border:2px solid #25D366}
+.btn-wa:hover,.btn-wa:focus-visible{background:#1ebe5a;border-color:#1ebe5a;color:#fff}
+@media (max-width:760px){.ctas{padding-right:68px}}
