@@ -187,3 +187,11 @@ address{font-style:normal;font-size:1.1rem;margin-bottom:1rem}
 .flu-fig video{display:block;width:100%;height:auto;aspect-ratio:9/16;border-radius:20px;background:var(--steel-d);object-fit:cover}
 @media (max-width:900px){.flu-wrap{grid-template-columns:1fr}.flu-fig{max-width:320px}.flu-copy .btn{width:100%}}
 /* /FLU SEASON SECTION */
+
+/* WhatsApp floating button */
+.wa-fab{position:fixed;right:20px;bottom:20px;z-index:70;width:60px;height:60px;border-radius:50%;background:#25D366;color:#fff;display:flex;align-items:center;justify-content:center;box-shadow:0 6px 18px rgba(0,0,0,.25);transition:transform .15s,box-shadow .15s}
+.wa-fab:hover,.wa-fab:focus-visible{transform:scale(1.07);box-shadow:0 8px 24px rgba(0,0,0,.3)}
+.wa-fab:focus-visible{outline:3px solid #fff;outline-offset:2px}
+.wa-ico{color:#25D366}
+@media (max-width:760px){.wa-fab{width:54px;height:54px;right:14px;bottom:calc(72px + env(safe-area-inset-bottom))}.wa-fab svg{width:28px;height:28px}body{padding-bottom:136px}}
+@media (prefers-reduced-motion:reduce){.wa-fab{transition:none}}
